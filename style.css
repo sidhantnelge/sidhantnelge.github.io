@@ -13,7 +13,7 @@ body {
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
-    background-color: #87CEFA; /* Light Blue */
+    background-color: 87CEFA; /* Light Blue */
     color: black; /* Black text inside the boxes */
     box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
     transition: transform 0.2s ease-in-out;
