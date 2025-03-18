@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm <strong>Sidhant Nelge</strong>. A passionate developer.</p>
+        <p><strong>Branch:</strong> EXCS B</p>
+        <p><strong>Roll No.:</strong> 24108B0074</p>
+    </section>
+
+            <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Project 1</h3>
+        <img src="project1.jpg" alt="Project 1" class="project-img" onclick="openPopup('project1.jpg')">
+        <p>Description of your project.</p>
+    </div>
+    <div class="project">
+        <h3>Project 2</h3>
+        <img src="project2.jpg" alt="Project 2" class="project-img" onclick="openPopup('project2.jpg')">
+        <p>Description of your second project.</p>
+    </div>
+</section>
+
+<!-- Popup Modal -->
+<div id="popup-container" class="popup-container">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <img id="popup-img" class="popup-img" src="">
+</div>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: youremail@example.com</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
